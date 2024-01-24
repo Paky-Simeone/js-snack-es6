@@ -20,4 +20,5 @@ const listVip = vips.map((vip, numeroTavolo) => {
       };
       return listVip;
   });
+  console.table(listVip);
   console.table(vips);
